@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap');
+@font-face {
+    font-family: 'kun';
+    src: url(KunstlerScript.ttf);
+}
+@font-face {
+    
+    font-family: 'kt';
+    src: url(Geoma\ Thin\ Demo.otf)
+}
+
+/**********media queries******************/
+
+
+@media screen and (max-width: 400px){
+    .menu,.logo{
+       font-size: calc(3.6vw + (6 - 4) * ((80vw - 400px) / (1600 - 400)));
+       display: flex;
+
+    }
+    .hero{
+        max-width: 85%;
+        max-height: 40%;
+    }
+}
+
+@media screen and (max-width:688px){
+    .mid-menu{
+        display: none !important;
+    }
+  .p1{
+      padding-top: 1em;
+      
+  }
+  .skills{
+    flex-direction: column;
+  }
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2A2928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+/************ navbar header***********/
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    line-height: 4rem;
+}
+.logo{
+    font-family: 'sora';
+    font-weight: bold;
+    color: #D5CFC7;
+    display: flex;
+    text-decoration: none;
+    margin-left: 20px;
+    }
+.mid-menu{
+    text-decoration: none;
+    color: #D5CFC7;
+    font-family: 'kun';
+    font-size: 3em;
+    display: flex;
+}
+.menu a{
+    padding: 0 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #D5CFC7;
+    font-family: 'sora';
+    font-size: 1em; 
+    font-weight: bold;
+    
+}
+.mid-menu:hover{
+    color: white;
+}
+.menu a:hover,.logo:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/************** first section*************/
+.sec-1{
+    padding: 0 36px;
+    padding-top: 10px;
+    margin-top:2%;
+    
+}
+.h1{
+    font-family: 'reem kufi';
+    color: #D5CFC7;
+    font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
+    margin-top: -2%;
+    margin-left: 6%;
+    align-content: center;
+    display: flex;
+}
+.h2{
+    font-family: 'reem kufi';
+    color: #D5CFC7;
+    font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
+    margin-top: -0.65em;
+    text-align: center;
+    margin-left: 25%;
+
+}
+.h1:hover,.h2:hover{
+    color: white;
+    transition: all 0.8s;
+}
+.h3{
+    font-family: 'Mrs Saint Delafield';
+    color: #D5CFC7;
+    font-size: 4em;
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    transform: rotate(-8deg);
+    width: auto;
+}
+.h4{
+    font-family: 'reem kufi';
+    color: #D5CFC7;
+    font-size: calc(7vw + (12 - 7.5) * ((100vw - 668px) / (1600 - 668)));
+   text-align: center;
+   text-decoration: underline;
+   margin-top: -4%;
+}
+#h5{
+    font-family: 'Readex Pro', sans-serif;
+    color: #D5CFC7;
+    font-size: calc(7vw + (12 - 7.5) * ((100vw - 668px) / (1600 - 668)));
+    text-align: center;
+    margin-top: 3%;
+    line-height: 1.6em;
+}
+.h6{
+    font-family: 'Readex Pro', sans-serif;
+    color: #D5CFC7;
+    font-size: calc(3vw + (8 - 1.2) * ((100vw - 668px) / (1600 - 668)));
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3%;
+    line-height: 3em;
+    font-weight: bolder;
+
+}
+.h6:hover{
+    color: white;
+}
+.p1{
+    font-family: 'sora';
+    color: #D5CFC7;
+    margin-top: -5%;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    font-size: calc(16px + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
+}
+.p2{
+   color: #D5CFC7;
+   font-family: 'sora';
+   font-size: calc(24px + (26 - 24) * ((100vw - 668px) / (1600 - 668)));
+   line-height: 4rem;
+   text-align: center;
+   
+}
+.hero{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+.skilled{
+display: flex;
+
+}
+.sec-edu{
+    margin-top: -3%;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+
+.skills{
+   color: #D5CFC7;
+   font-family: 'sora';
+   font-size: calc(26px + (30 - 26) * ((100vw - 668px) / (1600 - 668)));
+   text-align: center;
+   letter-spacing: 2px;
+   line-height: 2;
+   
+}
+.work-sec{
+    padding: 0 3%;
+}
+.work{
+    width: 100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5%;
+}
+.visit{
+    margin-top: -35%;
+    line-height: normal;
+   
+}
+.follow{
+    font-size: 6vw;
+    
+}
+.footer{
+    
+    margin: 3% 0 5% 0 ;
+    
+}
+.footer-link a{
+    text-decoration:underline;
+    color: #D5CFC7;
+    padding: 0 10px;
+   
+    font-weight: bolder;
+    font-size: calc(3vw + (10 - 4) * ((100vw - 668px) / (1600 - 668)));
+}
+.footer-link a:hover{
+    color: white;
+}
+.copyright{
+    font-size: calc(10px + (15 - 10) * ((100vw - 668px) / (1600 - 668)));
+    letter-spacing: 0;
+    margin-top: 5%;
+    text-align: center;
+}

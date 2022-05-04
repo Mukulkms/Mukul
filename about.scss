@@ -41,7 +41,12 @@ body{
         font-size: 7em;
     }
     .h3,.h4{
-        font-size: 1.2em;
+        font-size: 16px;
+        padding: 0 2%;
+    }
+    .more-info{
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
 }
@@ -52,10 +57,7 @@ body{
        display: flex;
 
     }
-    .hero{
-        max-width: 85%;
-        max-height: 40%;
-    }
+    
     
 }
 
@@ -77,10 +79,12 @@ body{
    }
    .more-info{
        flex-direction: column;
+       margin-left:2% ;
+       margin-right:2% ;
    }
    .h3,.h4{
     margin-top: 4%;
-    font-size: calc(18px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
+    font-size: calc(16px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
    }
 }
 
@@ -191,8 +195,7 @@ nav{
 .more-info{
     display: flex;
     justify-content: space-between;
-    margin: 2% 10% 0 10%;
-    
+    line-height: 1.8em;
     
 }
 .h3{
@@ -200,7 +203,6 @@ nav{
     color:#D5CFC7;
     text-align: left;
     font-weight: bolder;
-    padding: 0 10px;
     flex: 50%;
     
 }
@@ -208,12 +210,12 @@ nav{
     font-family: 'sora';
     color: #D5CFC7;
     text-align: left;
-    padding: 0 10px;
     font-weight: bolder;
     flex: 50%;
+   
 }
 .bg{
-    margin: 0 5%;
+    margin: 0 3%;
 
 }
 .hero{

@@ -25,6 +25,24 @@
     .h3{
         font-size: 7em;
     }
+    .h6{
+        font-size: 4em;
+    }
+    .h7{
+        font-size: 7em;
+        margin-bottom: -7%;
+        margin-top:-7%;
+    }
+    .h8{
+        font-size: 1.4em;
+    }
+    .h9{
+        font-size: 1.4em;
+    }
+    .d{
+        font-size: 1.4em;
+        text-align: right;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -37,6 +55,7 @@
         max-width: 85%;
         max-height: 40%;
     }
+    
 }
 
 @media screen and (max-width:688px){
@@ -54,7 +73,35 @@
   .h3{
     font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
   }
+  .h6{
+    font-size: calc(8vw + (10 - 8) * ((100vw - 668px) / (1600 - 668)));
+  }
+  .h7{
+    font-size: calc(12vw + (20 - 12) * ((100vw - 668px) / (1600 - 668)));
+    margin-bottom: -8%;
+    margin-top:-13%;
+    
+  }
+  .h8{
+    font-size: calc(18px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
+  }
+  .h9{
+    text-align: center;
+    font-size: calc(18px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
+  }
+  .d{
+      margin-top: 5%;
+      text-align: center;
+      font-size: calc(18px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
+      
+  }
 }
+
+@media (max-width: 768px) {
+    .more-info{
+      flex-direction: column;
+    }
+  }
 
 *{
     box-sizing: border-box;
@@ -156,7 +203,7 @@ nav{
    text-align: center;
    text-decoration: underline;
    letter-spacing: -0.10em;
-   margin-top: 5%;
+   margin-top: 6%;
 }
 #h5{
     font-family: 'gt';
@@ -174,7 +221,6 @@ nav{
 .h6{
     font-family: 'Readex Pro', sans-serif;
     color: #2A2928;
-    font-size: calc(3.5vw + (8 - 3.5) * ((100vw - 668px) / (1600 - 668)));
     justify-content: center;
     text-decoration: underline;
     line-height: 3em;
@@ -184,12 +230,60 @@ nav{
 .h6:hover{
     color: white;
 }
+.h7{
+    font-family: 'kun';
+    color: #2A2928;
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    transform: rotate(-8deg);
+    width: auto;
+}
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3% 0 3%;
+
+}
+.h8{
+    font-family: 'Readex Pro';
+    color: #2A2928;
+    text-align: left;
+    font-weight: lighter;
+    padding: 0 10px;
+    flex: 50%;
+    font-weight: bold;
+}
+.h9{
+    font-family: 'Readex Pro';
+    color: #2A2928;
+    
+    font-weight: lighter;
+    padding: 10px;
+    flex: 50%;
+    font-weight: bold;  
+    
+}
+.d{
+    text-decoration: none;
+    padding: 0 20px;
+    flex: 50%;
+    color: #2A2928;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'readex pro';
+}
+.d:hover{
+    color: white;
+}
 .p1{
     font-family: 'sora';
     color: #2A2928;
     font-weight: bolder;
     text-align: center;
-    display: block;
+    justify-content: center;
+    display: flex;
+    flex: 50%;
     font-size: calc(16px + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
 }
 .p2{
@@ -254,8 +348,9 @@ display: flex;
 }
 .footer{
     
-    margin-top:5%;
+    margin-top:8%;
     text-align: center;
+  
     
 }
 .footer-link {
@@ -263,7 +358,7 @@ display: flex;
     color: #2A2928;
     padding: 0 10px;
     font-family: 'sora';
-    line-height: 2em;
+    line-height: 3em;
     text-align: center;
     font-weight: bolder;
     font-size: calc(5vw + (10 - 4) * ((100vw - 668px) / (1600 - 668)));

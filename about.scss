@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap');
+@font-face {
+    font-family: 'kun';
+    src: url(P22ZanerFour.otf);
+}
+@font-face {
+    
+    font-family: 'kt';
+    src: url(Geoma\ Thin\ Demo.otf)
+}
+@font-face {
+    
+    font-family: 'gt';
+    src: url(GrotesqueMT-Bold.otf)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#2A2928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:1600px){
+    .menu,.logo{
+    font-size: 1.2em;
+    }
+    .social{
+        font-size: 2.1vw;
+        padding: 0 1em;
+    }
+    .info{
+        font-size: 7em;
+    }
+    .h3,.h4{
+        font-size: 1.2em;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .menu,.logo{
+       font-size: calc(4vw + (10 - 9) * ((80vw - 400px) / (1600 - 400)));
+       display: flex;
+
+    }
+    .hero{
+        max-width: 85%;
+        max-height: 40%;
+    }
+    
+}
+
+@media screen and (max-width:688px){
+    .mid-menu{
+        display: none !important;
+    }
+   .social{
+    font-size: 1.2em;
+    display: block;
+    padding: 0 5px;
+   }
+   .flex-container{
+       flex-direction: column;
+   }
+   .info{
+       font-size: 5em;
+       margin-top: -5%;
+   }
+   .more-info{
+       flex-direction: column;
+   }
+   .h3,.h4{
+    margin-top: 4%;
+    font-size: calc(18px + (22 - 18) * ((100vw - 668px) / (1600 - 668)));
+   }
+}
+
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    line-height: 4rem;
+}
+.logo{
+    font-family: 'sora';
+    font-weight: bolder;
+    color: #D5CFC7;
+    display: flex;
+    text-decoration: none;
+    margin-left: 20px;
+    }
+.mid-menu{
+    text-decoration: none;
+    color: #D5CFC7;
+    font-family: 'kun';
+    font-size: 3em;
+    display: flex;
+}
+.menu a{
+    padding: 0 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #D5CFC7;
+    font-family: 'sora';
+    font-size: 1em; 
+    font-weight: bolder;
+    
+}
+.menu a:active{
+    text-decoration: underline;
+    color: #D5CFC7;
+}
+.ab:link{
+    text-decoration: underline;
+    color:#D5CFC7;
+}
+.mid-menu:hover{
+    color: white;
+}
+.menu a:hover,.logo:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.sec-1{
+    padding: 0 36px;
+    padding-top: 10px;
+    margin-top:2%;
+    
+}
+.h1{
+    font-family: 'gt';
+    color: #D5CFC7;
+    font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
+    margin-top: -2%;
+    margin-left: 6%;
+    align-content: center;
+    display: flex;
+    letter-spacing: -0.10em;
+}
+.h2{
+    font-family: 'gt';
+    color: #D5CFC7;
+    font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
+    margin-top: -7%;
+    text-align: center;
+    margin-left: 25%;
+    letter-spacing: -0.10em;
+    font-weight: bold;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.social{
+   
+    font-family: 'sora';
+    text-decoration: none;
+   
+    color: #D5CFC7;
+    font-weight: bold;
+}
+.social:hover{
+    color: white;
+    text-decoration: underline;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    color: #D5CFC7;
+    font-family: 'kun';
+    line-height: 2em;
+    font-weight: lighter;
+}
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10% 0 10%;
+    
+    
+}
+.h3{
+    font-family: 'sora';
+    color:#D5CFC7;
+    text-align: left;
+    font-weight: bolder;
+    padding: 0 10px;
+    flex: 50%;
+    
+}
+.h4{
+    font-family: 'sora';
+    color: #D5CFC7;
+    text-align: left;
+    padding: 0 10px;
+    font-weight: bolder;
+    flex: 50%;
+}
+.bg{
+    margin: 0 5%;
+
+}
+.hero{
+    width: 100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5%;
+    
+}
+.copyright{
+    font-size: calc(10px + (15 - 10) * ((100vw - 668px) / (1600 - 668)));
+    letter-spacing: 0;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'sora';
+    color: #D5CFC7;
+    font-weight: bold;
+}

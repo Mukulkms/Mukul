@@ -154,7 +154,10 @@ nav{
     color: white;
     text-decoration: underline;
 }
-
+.menu a:active{
+    text-decoration: underline;
+    color: #D5CFC7;
+}
 
 
 /************** first section*************/

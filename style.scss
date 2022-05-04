@@ -49,6 +49,7 @@
   }
   .skills{
     flex-direction: column;
+    
   }
   .h3{
     font-size: calc(16vw + (22 - 16) * ((100vw - 668px) / (1600 - 668)));
@@ -155,24 +156,27 @@ nav{
    text-align: center;
    text-decoration: underline;
    letter-spacing: -0.10em;
-   margin-top: -4%;
+   margin-top: 5%;
 }
 #h5{
     font-family: 'gt';
     color: #2A2928;
     font-size: calc(6vw + (12 - 6) * ((100vw - 668px) / (1600 - 668)));
     text-align: center;
-    margin-top: 3%;
+    margin-top: 8%;
     letter-spacing:-0.2em;
     line-height: 1.6em;
+}
+.visit{
+    display: flex;
+    justify-content: center;
 }
 .h6{
     font-family: 'Readex Pro', sans-serif;
     color: #2A2928;
-    font-size: calc(3vw + (8 - 1.2) * ((100vw - 668px) / (1600 - 668)));
-    text-align: center;
+    font-size: calc(3.5vw + (8 - 3.5) * ((100vw - 668px) / (1600 - 668)));
+    justify-content: center;
     text-decoration: underline;
-    margin-top: 3%;
     line-height: 3em;
     font-weight: bolder;
 
@@ -212,7 +216,7 @@ display: flex;
 
 }
 .sec-edu{
-    margin-top: -3%;
+    margin-top: 5%;
     padding: 0 8%;
     display: flex;
     flex-direction: column;
@@ -227,8 +231,7 @@ display: flex;
    font-weight: bold;
    font-size: calc(26px + (30 - 26) * ((100vw - 668px) / (1600 - 668)));
    text-align: center;
-   letter-spacing: 2px;
-   line-height: 2;
+   line-height:1.5em;
    
 }
 .work-sec{
@@ -242,29 +245,30 @@ display: flex;
     display: flex;
     margin-top: 5%;
 }
-.visit{
-    margin-top: -35%;
-    line-height: normal;
-   
-}
+
 .follow{
     font-size: 6vw;
+    font-family: 'sora';
+    text-align: center;
     
 }
 .footer{
     
-    margin: 3% 0 5% 0 ;
+    margin-top:5%;
+    text-align: center;
     
 }
-.footer-link a{
+.footer-link {
     text-decoration:underline;
     color: #2A2928;
     padding: 0 10px;
-   
+    font-family: 'sora';
+    line-height: 2em;
+    text-align: center;
     font-weight: bolder;
-    font-size: calc(3vw + (10 - 4) * ((100vw - 668px) / (1600 - 668)));
+    font-size: calc(5vw + (10 - 4) * ((100vw - 668px) / (1600 - 668)));
 }
-.footer-link a:hover{
+.footer-link:hover{
     color: white;
 }
 .copyright{
@@ -272,4 +276,6 @@ display: flex;
     letter-spacing: 0;
     margin-top: 5%;
     text-align: center;
+    font-family: 'sora';
+    font-weight: bold;
 }

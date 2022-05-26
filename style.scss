@@ -21,6 +21,7 @@
 @media screen and (max-width:1600px){
     .menu,.logo{
     font-size: 1.2em;
+    
     }
     .h3{
         font-size: 7em;
@@ -43,6 +44,9 @@
         font-size: 1.4em;
         text-align: right;
     }
+    #c-form{
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -54,6 +58,10 @@
     .hero{
         max-width: 85%;
         max-height: 40%;
+    }
+
+    #c-form{
+        font-size: 1.3em;
     }
     
 }
@@ -342,13 +350,69 @@ display: flex;
     display: flex;
     margin-top: 5%;
 }
+.form-h{
+    line-height: 3em;
+    font-size: 8vw;
+    text-align: center;
+}
+#c-form{
+    border-radius: 5px;
+    line-height: 5vw;
+    padding: 0 16vw;
+    font-family: 'sora';
+    
+}
+input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom:2px solid #2A2928;
+    background-color: transparent;
+    padding: 10px ;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    font-size: 16px;
+  }
+  input:focus,
+  textarea:focus {
+  outline: 0;
+ 
+}
+ 
+textarea {
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+    border: none;
+    font-family: 'sora';
+    font-size: 18px;
+    border-bottom: 2px solid black;
+    resize: none;
+    margin-top: 1em;
+    padding: 10px;
+  }
+input[type=submit]:hover {
+    background-color: #3c3c3c;
+}
 
+input[type=submit] {
+    background-color: #2A2928;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  
 .follow{
     font-size: 6vw;
     font-family: 'sora';
     text-align: center;
     
 }
+
 .footer{
     
     margin-top:8%;
